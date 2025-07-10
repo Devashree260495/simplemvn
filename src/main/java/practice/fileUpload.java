@@ -21,10 +21,10 @@ public void uploadFile() {
 	option.addArguments("--incognito");
 	driver=new ChromeDriver(option);
 	driver.get("https://practice.expandtesting.com/upload");
-	driver.findElement(By.xpath("//input[@type='file']")).sendKeys("D:\\Devashree\\devashree cv java.pdf");
+	driver.findElement(By.xpath("//input[@type='file']")).sendKeys("D:\\Devashree\\Devashree_Naik _Resume.docx");
 	WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(20)); 
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='fileSubmit']"))).click();
-//	driver.findElement(By.xpath("//button[@id='fileSubmit']")).click();
+//	driver.findElement(By.xpath("//button[@id='fileSubmit']")).click();"D:\Devashree\Devashree_Naik _Resume.docx"
 		
 		Assert.assertEquals(driver.findElement(By.xpath("//h1")).getText(), "File Uploaded!");
 		

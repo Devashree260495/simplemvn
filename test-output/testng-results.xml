@@ -2,27 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-08T15:25:52 IST" name="crossBrowserTest" finished-at="2025-07-08T15:26:20 IST" duration-ms="27951">
+  <suite started-at="2025-07-10T14:48:15 IST" name="crossBrowserTest" finished-at="2025-07-10T14:48:30 IST" duration-ms="15171">
     <groups>
     </groups>
-    <test started-at="2025-07-08T15:25:52 IST" name="cromeTest" finished-at="2025-07-08T15:26:14 IST" duration-ms="22755">
+    <test started-at="2025-07-10T14:48:15 IST" name="edgeTest" finished-at="2025-07-10T14:48:27 IST" duration-ms="12066">
       <class name="practice.crossBrowserTesting">
-        <test-method signature="testBrowser(java.lang.String)[pri:0, instance:practice.crossBrowserTesting@c730b35]" started-at="2025-07-08T15:25:52 IST" name="testBrowser" finished-at="2025-07-08T15:26:14 IST" duration-ms="22664" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testBrowser -->
-      </class> <!-- practice.crossBrowserTesting -->
-    </test> <!-- cromeTest -->
-    <test started-at="2025-07-08T15:25:52 IST" name="edgeTest" finished-at="2025-07-08T15:26:20 IST" duration-ms="27951">
-      <class name="practice.crossBrowserTesting">
-        <test-method signature="testBrowser(java.lang.String)[pri:0, instance:practice.crossBrowserTesting@6c40365c]" started-at="2025-07-08T15:25:52 IST" name="testBrowser" finished-at="2025-07-08T15:26:20 IST" duration-ms="27884" status="PASS">
+        <test-method signature="testBrowser(java.lang.String)[pri:0, instance:practice.crossBrowserTesting@6c40365c]" started-at="2025-07-10T14:48:15 IST" name="testBrowser" finished-at="2025-07-10T14:48:27 IST" duration-ms="11963" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,5 +20,20 @@
         </test-method> <!-- testBrowser -->
       </class> <!-- practice.crossBrowserTesting -->
     </test> <!-- edgeTest -->
+    <test started-at="2025-07-10T14:48:15 IST" name="cromeTest" finished-at="2025-07-10T14:48:30 IST" duration-ms="15171">
+      <class name="practice.crossBrowserTesting">
+        <test-method signature="testBrowser(java.lang.String)[pri:0, instance:practice.crossBrowserTesting@c730b35]" started-at="2025-07-10T14:48:15 IST" name="testBrowser" finished-at="2025-07-10T14:48:30 IST" duration-ms="15085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrowser -->
+      </class> <!-- practice.crossBrowserTesting -->
+    </test> <!-- cromeTest -->
   </suite> <!-- crossBrowserTest -->
 </testng-results>
